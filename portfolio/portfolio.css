@@ -15,6 +15,21 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
+.button-contact button{
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(203, 41, 224);
+    border: 0;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: .2s;
+}
+
 /* HEADING STYLE */
 header{
     padding: 40px 4%;
@@ -47,16 +62,48 @@ header nav ul li{
     padding: 0 30px;
 }
 
-header .button-contact button{
-    padding: 10px 30px;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: rgb(203, 41, 224);
-    border: 0;
-    border-radius: 35px;
-    cursor: pointer;
+.button-contact button:hover{
+    box-shadow: 0px 0px 8px #db66ff;
+    transform: scale(1.05);
 }
 
-header .button-contact button:hover{
-    box-shadow: 0px 0px 8px #db66ff;
+/* TOP OF SITE STYLE */
+section.top-of-site{
+    padding: 40px 4%;
+}
+
+section.top-of-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.top-of-site h1{
+    color: #ffff;
+    font-size: 44px;
+    line-height: 41px;
+}
+
+.top-of-site .text-top-of-site h1 span{
+    color: #9d29c0;
+}
+
+.top-of-site .text-top-of-site p{
+    color: #ffff;
+    margin: 40px 0;
+}
+
+.top-of-site .image-top-of-site img{
+    position: relative;
+    animation: toFloat 3.9s ease-in-out infinite;
+}
+
+/* ANIMATION OF IMAGE TOP OF SITE */
+@keyframes toFloat{
+    0%{ 
+        top: 0;
+    }
+    100%{ 
+        top: 50px;
+    }
 }
