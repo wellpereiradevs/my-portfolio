@@ -1,0 +1,62 @@
+/* GENERAL STYLE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* HEADING STYLE */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #ffff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+header .button-contact button{
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(203, 41, 224);
+    border: 0;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+header .button-contact button:hover{
+    box-shadow: 0px 0px 8px #db66ff;
+}
