@@ -95,7 +95,7 @@ section.top-of-site .flex{
 
 .top-of-site .image-top-of-site img{
     position: relative;
-    animation: toFloat 3.9s ease-in-out infinite;
+    animation: toFloat 3.9s ease-in-out infinite alternate;
 }
 
 /* ANIMATION OF IMAGE TOP OF SITE */
