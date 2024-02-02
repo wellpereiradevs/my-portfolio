@@ -123,9 +123,21 @@ section.specialties{
     padding: 40px 4%;
 }
 
+section.specialties .flex{
+    gap: 60px;
+}
+
 .specialties .specialties-box{
     color: #ffff;
     padding: 40px;
+    margin-top: 45px;
+    border-radius: 22px;
+    transition: 1;
+}
+
+.specialties .specialties-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #9d29c086;
 }
 
 .specialties .specialties-box i{
