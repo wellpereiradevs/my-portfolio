@@ -117,3 +117,23 @@ section.top-of-site .flex{
         top: 50px;
     }
 }
+
+/* SPECIALTY STYLE */
+section.specialties{
+    padding: 40px 4%;
+}
+
+.specialties .specialties-box{
+    color: #ffff;
+    padding: 40px;
+}
+
+.specialties .specialties-box i{
+    font-size: 75px;
+    color: #9d29c0;
+}
+
+.specialties .specialties-box h3{
+    font-size: 30px;
+    margin: 15px 0;
+}
