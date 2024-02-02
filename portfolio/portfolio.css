@@ -30,6 +30,16 @@ body{
     transition: .2s;
 }
 
+h2.title{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.title span{
+    color: #9d29c0;
+}
+
 /* HEADING STYLE */
 header{
     padding: 40px 4%;
