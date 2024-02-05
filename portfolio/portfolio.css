@@ -149,3 +149,33 @@ section.specialties .flex{
     font-size: 30px;
     margin: 15px 0;
 }
+
+/* ABOUT STYLE */
+section.about{
+    padding: 40px 4%;
+}
+
+.text-about{
+    color: #ffff;
+}
+
+.flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.text-about h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.text-about h2 span{
+    color: #9d29c0;
+    display: block;
+}
+
+.text-about p{
+    margin: 20px 0;
+    text-align: justify;
+}
